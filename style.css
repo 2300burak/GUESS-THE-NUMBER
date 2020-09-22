@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+div input{
+    font-size: medium;
+}
+#resim{
+    width: 200px;
+    visibility: hidden;
+}
