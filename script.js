@@ -34,6 +34,11 @@ document.getElementById("check").addEventListener("click",function guess() {
 
     counter++;
     document.getElementById("message2").innerHTML = "This is your test number:" + counter;
+    if(counter  == 7){
+        document.getElementById("message").innerHTML = "You are lost :D" 
+        let button= document.getElementById("check");
+        button.style.visibility="hidden";
+    }
     
 
     

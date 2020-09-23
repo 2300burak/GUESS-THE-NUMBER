@@ -37,4 +37,6 @@ span{
     margin:0;
     padding: 10px;
 }
+#check{
+    visibility: visible;
 }
