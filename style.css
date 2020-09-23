@@ -2,16 +2,39 @@ body{
     background-image: url("https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png");
     background-repeat: no-repeat;
     background-size: cover;
+    /* position: absolute; */
 }
 div{
     width: 100%;
     text-align: center;
-    margin-top: 10%;
+
 }
 div input{
     font-size: medium;
 }
 #resim{
-    width: 200px;
+    width: 400px;
     visibility: hidden;
+ 
+}
+h1{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+p{
+    font-size: xx-large;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+span{
+    font-size: large;
+    margin:0;
+    padding: 10px;
+}
 }
